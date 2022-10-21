@@ -9,7 +9,7 @@ with open('./wikiart.json', 'r', encoding='UTF-8') as f:
     json_data = json.load(f)
 
 data_list = json_data[2]["data"]
-# data_list = data_list[159691:]
+# data_list = data_list[173705:]
 
 # image_name = './database/NASA3 .jpg'
 # f = open(image_name, 'wb')
@@ -34,11 +34,17 @@ replace_character = ['/', '\\', '*', ':', '?', '<', '>', '|', '"', '.']
 for data in data_list:
     print(no_download_count)
     core_data = data["data"] if "data" in data else None
+    
     if core_data == None or core_data == 'error':
         no_download_count += 1
         continue
     
-    jsonObject = json.loads(core_data)
+    try:
+        jsonObject = json.loads(core_data)
+    except ValueError:
+        print("Decoding JSON has failed.")
+        no_download_count += 1
+        continue
     
     image_id = data["image_id"]
     genre = ''
@@ -59,16 +65,13 @@ for data in data_list:
         genre = genre.replace(character, '')
         style = style.replace(character, '')
         media = media.replace(character, '')
-    # if image_id == '11928':
-    #     title = 'Map of the Northern Sky with representations of the constellations'
+        
     image_name = image_id + '+' + genre + '+' + style + '+'  + media + '.jpg'
     
     if len(image_name) > 200:
         continue
 
     file_path = './database_all/' + image_name
-    # print(image_name)
-    # print(imageURL)
     response = requests.get(imageURL)
     img = Image.open(BytesIO(response.content))
     img = img.convert('RGB')
