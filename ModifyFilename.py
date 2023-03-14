@@ -8,8 +8,8 @@ data_list = json_data[2]["data"]
 data_list = data_list[6578:]
 
 replace_character = ['/', '\\', '*', ':', '?', '<', '>', '|', '"', '.']
-legacy_path = './database_style'
-new_path = './database_all/'
+legacy_path = './database_test'
+new_path = './database_test_2/'
 
 for data in data_list:
     core_data = data["data"] if "data" in data else None
@@ -32,7 +32,7 @@ for data in data_list:
         style = style.replace(character, '')
         media = media.replace(character, '')
 
-    new_file_name = image_id + '+' + genre + '+' + style + '+' + media + '.jpg'
+    new_file_name = image_id + '+' + genre + '+' + style + '+' + media + '+.jpg'
 
     if len(new_file_name) > 200:
         continue
