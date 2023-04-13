@@ -4,3 +4,5 @@ database_all/
 database_test/
 database_test.zip
 database_all.zip
+data/
+models/
