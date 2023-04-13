@@ -9,25 +9,6 @@ with open('./wikiart.json', 'r', encoding='UTF-8') as f:
     json_data = json.load(f)
 
 data_list = json_data[2]["data"]
-# data_list = data_list[173705:]
-
-# image_name = './database/NASA3 .jpg'
-# f = open(image_name, 'wb')
-# response = requests.get('https://uploads1.wikiart.org/images/magdalena-carmen-frieda-kahlo-y-calderón-de-rivera/a-few-small-nips-passionately-in-love-1935.jpg')
-# img = Image.open(BytesIO(response.content))
-# img.save(image_name)
-# print(img.size[1])
-# f.write(img)
-# f.close()
-# baseheight = 256
-
-# data = data_list[1]
-# core_data = data["data"]
-# jsonObject = json.loads(core_data)
-# print(type(jsonObject))
-# print("image" in jsonObject)
-# print("style" in jsonObject)
-
 
 no_download_count = 0
 replace_character = ['/', '\\', '*', ':', '?', '<', '>', '|', '"', '.']
