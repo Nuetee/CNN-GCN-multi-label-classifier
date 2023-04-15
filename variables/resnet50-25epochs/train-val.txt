@@ -1,0 +1,36 @@
+Epoch [1/25], train_loss: 0.1686, train_precision: 0.0689, train_recall: 0.0416, train_f1_score: 0.0519
+val_loss: 0.2375, val_precision: 0.0479, val_recall: 0.0444, val_f1_score: 0.0461
+Epoch [2/25], train_loss: 0.1303, train_precision: 0.0807, train_recall: 0.0345, train_f1_score: 0.0483
+val_loss: 0.1585, val_precision: 0.0457, val_recall: 0.0563, val_f1_score: 0.0504
+Epoch [3/25], train_loss: 0.1269, train_precision: 0.0839, train_recall: 0.0375, train_f1_score: 0.0518
+val_loss: 0.1200, val_precision: 0.0340, val_recall: 0.0379, val_f1_score: 0.0359
+Epoch [4/25], train_loss: 0.1215, train_precision: 0.1050, train_recall: 0.0480, train_f1_score: 0.0659
+val_loss: 0.1208, val_precision: 0.0757, val_recall: 0.0477, val_f1_score: 0.0585
+Epoch [5/25], train_loss: 0.1217, train_precision: 0.1128, train_recall: 0.0470, train_f1_score: 0.0664
+val_loss: 0.1223, val_precision: 0.0680, val_recall: 0.0434, val_f1_score: 0.0530
+Epoch [6/25], train_loss: 0.1184, train_precision: 0.1398, train_recall: 0.0551, train_f1_score: 0.0790
+val_loss: 0.1225, val_precision: 0.0637, val_recall: 0.0471, val_f1_score: 0.0541
+Epoch [7/25], train_loss: 0.1155, train_precision: 0.1254, train_recall: 0.0627, train_f1_score: 0.0836
+val_loss: 0.1309, val_precision: 0.0521, val_recall: 0.0453, val_f1_score: 0.0485
+Epoch [8/25], train_loss: 0.1077, train_precision: 0.1504, train_recall: 0.0636, train_f1_score: 0.0894
+val_loss: 0.1134, val_precision: 0.0823, val_recall: 0.0616, val_f1_score: 0.0705
+Epoch [9/25], train_loss: 0.1029, train_precision: 0.1763, train_recall: 0.0787, train_f1_score: 0.1088
+val_loss: 0.1120, val_precision: 0.0940, val_recall: 0.0623, val_f1_score: 0.0749
+Epoch [10/25], train_loss: 0.1010, train_precision: 0.2104, train_recall: 0.0793, train_f1_score: 0.1152
+val_loss: 0.1132, val_precision: 0.0833, val_recall: 0.0656, val_f1_score: 0.0734
+Epoch [11/25], train_loss: 0.0989, train_precision: 0.1984, train_recall: 0.0841, train_f1_score: 0.1181
+val_loss: 0.1113, val_precision: 0.1104, val_recall: 0.0725, val_f1_score: 0.0875
+Epoch [12/25], train_loss: 0.0974, train_precision: 0.2725, train_recall: 0.0961, train_f1_score: 0.1421
+val_loss: 0.1117, val_precision: 0.0983, val_recall: 0.0662, val_f1_score: 0.0791
+Epoch [13/25], train_loss: 0.0937, train_precision: 0.2473, train_recall: 0.1052, train_f1_score: 0.1476
+val_loss: 0.1114, val_precision: 0.1278, val_recall: 0.0687, val_f1_score: 0.0893
+Epoch [14/25], train_loss: 0.0927, train_precision: 0.2728, train_recall: 0.1049, train_f1_score: 0.1516
+val_loss: 0.1122, val_precision: 0.1598, val_recall: 0.0788, val_f1_score: 0.1055
+Epoch [15/25], train_loss: 0.0895, train_precision: 0.2526, train_recall: 0.1208, train_f1_score: 0.1635
+val_loss: 0.1114, val_precision: 0.1370, val_recall: 0.0782, val_f1_score: 0.0996
+Epoch [16/25], train_loss: 0.0880, train_precision: 0.3037, train_recall: 0.1359, train_f1_score: 0.1877
+val_loss: 0.1118, val_precision: 0.1710, val_recall: 0.0846, val_f1_score: 0.1132
+Epoch [17/25], train_loss: 0.0875, train_precision: 0.3365, train_recall: 0.1304, train_f1_score: 0.1880
+val_loss: 0.1127, val_precision: 0.1707, val_recall: 0.0884, val_f1_score: 0.1164
+Epoch [18/25], train_loss: 0.0874, train_precision: 0.3193, train_recall: 0.1256, train_f1_score: 0.1803
+val_loss: 0.1122, val_precision: 0.1561, val_recall: 0.0849, val_f1_score: 0.1100
